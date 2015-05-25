@@ -44,9 +44,9 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 -->
 <p>
   <a href="{{site.swc_site}}">Software Carpentry</a>'s mission
-  is to help scientists and engineers get more research done in less
-  time and with less pain by teaching them basic lab skills for
-  scientific computing.  This hands-on workshop will cover basic
+  is to help researchers in all disciplines get more research done in less
+  time and with less pain by teaching them basic skills for
+  research computing.  This hands-on workshop will cover basic
   concepts and tools, including program design, version control, data
   management, and task automation.  Participants will be encouraged to
   help one another and to apply what they have learned to their own
@@ -526,6 +526,23 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
         </li>
       </ol>
     </div>
+     <h4>Natural Language Toolkit</h4>
+    <p>Natural Language Toolkit is a library of Python that can be used to analyse features of large bodies of text.
+    you will need to install NLTK for use in this workshop. If you want to learn more about NLTK, the O'Reilly book 
+    for Python 2 is a good resource, available <a href="http://www.nltk.org/book_1ed/">here</a>.</p>
+    <p>To install NLTK
+    <li>Open a terminal window and type</li>
+    <code>
+    pip install NLTK
+    </code>
+    <li>Then in a python shell run the following commands</li>
+    <code>
+    import nltk
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    nltk.download('book')
+    </code>
+    </p>
   </div>
 </div> <!-- End of 'Python' section. -->
 
